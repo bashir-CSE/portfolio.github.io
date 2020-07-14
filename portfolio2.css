@@ -1,0 +1,509 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+.h1{
+    font-family: 'Poppins', sans-serif;
+}
+.p{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color:#A8B9C0  ;
+}
+.span{
+    text-transform: uppercase;
+    color:  #F4F4F4;
+}
+
+.sec1{
+
+    background-image: url("../project2/pic/Background.png");
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section-display{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.nav-header{
+   position: sticky;
+   top: 0rem;
+    display: block;
+    height: 62.91px;
+    width: auto;
+    padding: 0 10rem;
+    margin: 0 auto;
+
+    z-index: 1;
+    background-color:rgb(80, 70, 73) ;
+}
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo h1{
+    line-height: 4rem;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    padding: 0 1.5rem;
+    
+    font-weight: normal;
+}
+.nav-bar-area .nabbar{
+    display: flex;
+    justify-content: space-between;
+    line-height: 4rem;
+    list-style: none;
+
+  
+}
+.nav-bar-area .nabbar li
+{
+    padding:  1rem;
+    color: #FF3150 ;
+}
+.nav-bar-area i{
+    color: #FF3150 ;
+}
+.nav-bar-area .nabbar li a{
+    color:#F4F4F4;
+    text-decoration: none;
+    font-size:15px;
+}
+.nav-bar-area .nabbar li button{
+    padding: .3rem 1.9rem;
+    border-radius: 2rem;
+    outline: none;
+    background-color:#FF3150 ;
+    border: none;
+    cursor: pointer;
+    color:white;
+}
+.section-display .display-text{
+    text-align: center;
+    margin-top: 10rem;
+}
+.section-display .display-text h1{
+    color: #F4F4F4;
+    font-size: 3.5rem;
+    font-weight: normal;
+    padding:.5rem 0rem ;
+}
+.section-display .display-text p{
+    padding-bottom: 1rem;
+}
+.section-display .display-text button{
+   padding: .3rem 0rem;
+   width: 8rem;
+   border-radius: 10rem;
+   background-color:  #FF3150;
+   outline: none;
+   border: none;
+   cursor: pointer;
+   margin-top: 1rem;
+   color: white;
+}
+.section-display .display-text .btn2{
+   background: transparent;
+   border: 1px solid #FF3150;
+   color: white;
+   margin-left: 1rem;
+ }
+ /*=======================sec2================*/
+ .sec2{
+     height: 600px;
+     width: auto;
+     text-align: center;
+     
+ }
+ .sec2 .taylor-head h1{
+     padding: 5rem 0 .5rem 0;
+     font-weight: normal;
+ }
+ .sec2 .taylor-head p::after{
+     background-color:#FF3150 ;
+     height: .1rem;
+     width: 3.5rem;
+     content: "";
+     display: block;
+     margin: 1rem auto;
+     margin-bottom: 3rem;
+ }
+ .sec2 .taylor .pera p{
+     height: 15rem;
+     width: 58rem;
+     display: block;
+     margin: 0rem auto;
+     text-transform: lowercase;
+     line-height: 1.5rem;
+ }
+ .sec2 .taylor .art{
+     display: block;
+     margin: -5rem auto;
+     position: relative;
+
+ }
+ .sec2 .taylor .art .signeture .hand{
+    position: absolute;
+
+    right: 20.7rem;
+    bottom: -5.9rem;
+    z-index: -1;
+ }
+ /*=========sec3====================*/
+.sec3{
+    height: 40rem;
+    width: auto;
+    background-color:  #F4F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec3 .card-items{
+    height: 22rem;
+    width: 20rem;
+    background-color: #F4F4F4;
+    box-shadow: 3px 3px 6px  rgb(170, 162, 162);
+
+                -5px -5px 6px  rgb(170, 162, 162);
+    margin: 1rem;
+}
+.sec3 .card-items .card-logo{
+    text-align: center;
+    padding: 3rem;
+}
+ .card-logo .img::after{
+    background-color:#FF3150 ;
+    height: .1rem;
+    width: 3rem;
+    content: "";
+    display: block;
+    margin: 1rem auto;
+}
+.sec3 .card-items .card-logo h3{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: .6rem;
+    margin-bottom: 1em;
+}
+.sec4{
+    background-image: url("../project2/pic/Clip@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    width: auto;
+
+}
+.sec4 .bg-sec4{
+    background-color: rgba(0, 0, 0, 0.705);
+    height: 100%;
+    padding: 2rem;
+}
+.sec4 .bg-sec4 .clients{
+    text-align: center;
+    margin-top: 3rem;
+}
+.sec4 .bg-sec4 .clients h1{
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem 0 1.5rem 0;
+    font-size: 2.2rem;
+}
+.sec4 .bg-sec4 .clients p{
+   color:  #FF3150;
+   text-transform: uppercase;
+   font-size: 1rem;
+}
+.sec4 .client-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.sec4 .client-logo img{
+    margin: 0 3rem;
+}
+.sec5{
+    height: 35rem;
+    width: auto;
+    text-align: center;
+}
+.sec5 .recent-work .recent-titel{
+    padding: 3rem 0;
+    display: block;
+}
+.sec5 .recent-work .recent-titel h1{
+    color:#231F20;
+    text-transform: uppercase;
+    padding: 1rem 0 1.5rem 0;
+    font-size: 2.2rem;
+}
+.sec5 .recent-work .recent-titel p{
+    color:  #FF3150;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.sec5 .recent-work .recent-titel p::after{
+    background-color:#FF3150 ;
+    height: .1rem;
+    width: 3rem;
+    content: "";
+    display: block;
+    margin: 1rem auto;
+}
+.sec5 .recent-work .recent-logo{
+    display: block;
+    margin: 0 auto;
+    height: 25rem;
+    width: 40rem;
+}
+.sec5 .recent-work .recent-logo .logo-items{
+    height:150px;
+    width: 150px;
+}
+.sec6{
+    margin-top: 4.5rem;
+    height: 17rem;
+    width: auto;
+    background-image:url("../project2/pic/Advertise@2x.png");
+}
+.sec6 .start{
+  background-color: rgba(20, 29, 80, 0.267) ;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.sec6 .start h1{
+    color: white;
+    text-transform: capitalize;
+    padding: 3rem 0 .5rem 0;
+    font-size: 2.2rem;
+    font-weight: normal;
+}
+.sec6 .start p{
+    color:  #F4F4F4;
+    padding: 1rem 0 1.2rem 0;
+    font-size:.8rem;
+    font-weight: normal;
+text-transform: lowercase;
+}
+.sec6 .start button{
+    padding: .3rem 0rem;
+    width: 8rem;
+    border-radius: 10rem;
+    background-color:  #FF3150;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 2.5rem;
+    text-transform: uppercase;
+    color: white
+}
+.sec7{
+    height: 40rem;
+    width: auto;
+    text-align: center;
+}
+.sec7 .read h1{
+    color: #231F20;
+    text-transform:uppercase;
+    padding: 3rem 0 .5rem 0;
+    font-size: 2.2rem;
+    font-weight:bold;
+}
+.sec7 .read p{
+    text-transform: uppercase;
+    color:  #FF3150;
+    font-size: 15px;
+}
+.sec7 .read p::after{
+    background-color:#FF3150 ;
+    height: .1rem;
+    width: 3rem;
+    content: "";
+    display: block;
+    margin: 1rem auto;
+}
+.sec7 .blog-cards .blog-card{
+    height: 16rem;
+    width: 17rem;
+    margin: .6rem;
+}
+.sec7 .blog-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.sec7 .blog-cards .blog-card .blog-img{
+    height:65%;
+    width:100%;
+
+    
+}
+.sec7 .blog-cards .blog-card {
+    background-color: #F4F4F4;
+    box-shadow: 3px 3px 6px  rgb(170, 162, 162);
+
+                -5px -5px 6px  rgb(170, 162, 162);
+}
+.sec7 .blog-cards .blog-card p{
+    text-align: left;
+    color:#19283F ;
+    font-size: 12px;
+    padding-bottom: .4rem;
+    font-weight: 300px;
+}
+.sec7 .blog-cards .blog-card h4{
+    text-align: left;
+    color:#231F20 ;
+    font-size: 1rem;
+}
+.sec7 .blog-cards .blog-card .blog-titel{
+    padding: 1rem;
+}
+.sec7 .blog-btn .btn1 {
+    padding: .5rem 0rem;
+    width: 8rem;
+    border-radius: 10rem;
+    background-color:  #FF3150;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 2.5rem;
+    text-transform: uppercase;
+    color: white;
+}
+.sec8{
+    background-color: #FF3150;
+    height: 5rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.sec8 h5{
+    font-weight:normal
+    font-size: 15px;
+    margin: 0 2rem 0 0;
+}
+.sec8 input{
+    padding: .15rem 6rem .15rem 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #231F20;
+    color: #F4F4F4;
+    margin-right: 2rem;
+}
+.sec8 .btn1{
+    padding: .5rem 0rem;
+    width: 8rem;
+    border-radius: 10rem;
+    background-color: #231F20;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+}
+.sec9{
+    background-color: #231F20;
+    height: 18rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: white;
+    line-height: 1.8rem;
+}
+.colA{
+    height: 18rem;
+    width: 20rem;
+    margin: 3rem 1rem 3rem 0rem;
+    padding: 3rem 2rem 1rem 2rem;
+}
+.colB{
+    height: 18rem;
+    width: 10rem;
+    margin: 3rem 1rem 3rem 0rem;
+    padding: 3rem 2rem 1rem 2rem;
+}
+.sec9 .col-a h1{
+    padding: 1rem 0 2rem 0;
+    font-size: 3rem;
+   
+}
+.sec9 p{
+    font-size: 15px;
+    text-transform: lowercase;
+}
+.sec9 .col-a p{
+    
+    line-height: 1.8rem;
+}
+.sec9  .list1{
+    font-weight: bold;
+
+}
+.sec9 .col-d .mail input{
+    background-color: #FF3150;
+    padding: .3rem 4rem .3rem .6rem;
+    margin: .7rem 0 1rem 0;
+    border: none;
+    outline: none;
+    border-radius: 5rem;
+    color: whitesmoke;
+    position: relative;
+}
+.sec9 .col-d .last-icon .fa{
+    height: 1.7rem;
+    width: 1.7rem;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.7rem;
+    border-radius: 50%;
+    margin: .5rem .2rem 0 0;
+    cursor: pointer;
+}
+.sec9 .col-d .last-icon  .fa-facebook{
+    background-color:  #3b5998;
+}
+.sec9 .col-d .last-icon .fa-google-plus{
+    background-color: #db4a39;
+}
+.sec9 .col-d .last-icon .fa-twitter{
+    background-color: #00acee;
+}
+.sec9 .col-d .last-icon .fa-instagram{
+    background-color: #3f729b;
+}
+.sec9 .col-d .last-icon .fa-pinterest{
+    background-color: #c8232c;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+.up{
+    position: fixed;
+    right: 2.5rem;
+    bottom:2rem;
+    font-size: 2rem;
+}
